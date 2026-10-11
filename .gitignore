@@ -1,0 +1,11 @@
+# Local link to the editable Melyta SD&MRF skill sources.
+/.agents/skills/melyta-sd-mrf/
+
+# Local environments, bytecode and customer-specific distribution files.
+/.melyta-venv/
+__pycache__/
+*.pyc
+# Issuer secrets belong outside this repository (ignore is only a safeguard).
+*.key
+*private*.pem
+.vscode/
